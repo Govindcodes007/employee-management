@@ -5,9 +5,9 @@ if(isset($_POST['submit']))
 {
   
 
-  $ename = isset($_POST['ename']) ? $_POST['ename'] : "New Emp";
-  $salary =isset($_POST['salary']) ? $_POST['salary'] : 15000;
-  $gender =isset($_POST['gender']) ? $_POST['gender'] : '';
+  $ename = $_POST['ename'];
+  $salary =$_POST['salary'];
+  $gender =$_POST['gender'];
   $email = isset($_POST['email']) ? $_POST['email'] : '';
 
 
